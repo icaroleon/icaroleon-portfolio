@@ -1,0 +1,97 @@
+.projects {
+  overflow-x: hidden; /*or overflow-x:scroll */
+  overflow-y: hidden;
+  font-size: 16px;
+}
+
+.projects > article > h2 {
+  text-align: left;
+  font-family: 'Oswald', sans-serif !important;
+}
+
+.projects > article > h3 > .badge {
+  font-size: 50%;
+  font-weight: 600;
+  vertical-align: middle;
+  
+}
+.projects > article > h3 > span > a {
+  text-decoration: none;
+  
+}
+
+#projectsContent > .aboutMeWrapper > .aboutMe > article > h2 {
+  margin-bottom: 45px;
+}
+
+
+
+.projects > article > h3 > #LetsGoBadge {
+  background-color: rgba(234, 234, 234, 0.8);
+}
+
+.projects > article > h3 > #RentForAllBadge {
+  background-color: rgba(234, 234, 234, 0.8);
+}
+
+.projects > article > h3 > #LetsGoBadge:hover {
+  color: #eeeeee;
+  background-color: black;
+}
+
+.projects > article > h3 > #RentForAllBadge:hover {
+  color: black;
+  background-color: #ff9800;
+}
+
+.projects > article {
+  min-width: 54vw;
+  margin-right: 1%;
+  margin-left: 1%;
+  justify-content: center;
+  align-items: center;
+}
+
+.previous {
+  font-size: 70px;
+  color: black;
+  left: -4% !important;
+}
+
+.next {
+  font-size: 70px;
+  color: black;
+  right: -4% !important;
+}
+
+#projectsContent h2 {
+  animation: fadeEffect 1s;
+}
+
+#projectsContent h6 {
+  animation: fadeEffect 2s;
+  padding-left: 1px;
+}
+
+#projectsContent p {
+  animation: fadeEffect 3s;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+.project-text{
+  padding-right: 0px !important;
+  display: inline-table;
+}
+
+.project-text ul{
+  padding-left: 30px;
+}
+
+.link-projeto{
+  font-size: 15px !important
+}
+.project-column {
+  flex-direction: row-reverse;
+}
+

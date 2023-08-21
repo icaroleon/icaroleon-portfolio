@@ -1,0 +1,171 @@
+ /* Mobile :320px. */
+ @media screen and (max-width: 576px) {
+    
+  .selected {
+    font-size: 14px !important;
+  }
+
+  .aboutMe{
+    padding: 20px
+  }
+
+  .skillSelected{
+      font-size: 15px;
+    }
+ 
+    .skillsLinks{
+      font-size: 15px;
+      text-align: left; 
+      margin-left: 20px;
+    }
+
+    .title {
+      display:none
+    }
+
+    .link-small-devices{
+      display: block;
+    }
+
+    .spaceDevice {
+      margin: 0px;
+    }
+    .project-text {
+      padding-right: 10px !important;
+    }
+
+    .first-column-project { 
+      margin-top: 15px;
+    }
+
+    #profile-pic-description{
+      width: 180px;  
+      
+    }
+
+    #contact-title{
+      font-size: 38px;
+      margin-bottom: 0px;
+    }
+
+    #contact-infos{
+      padding-left: 0px;
+    }
+
+    #image-and-cv{
+      margin-left: 15px;
+      }
+
+      .description{
+        max-width: 75%;
+        padding: 0px;
+        margin-left: 10px;
+      }
+    
+      .profile-pic{
+        max-width: 18%;
+        padding: 0px
+      }
+    }
+
+@media screen and (min-width: 577px) and (max-width: 767px) {
+  .aboutMe{
+    padding: 20px
+  }
+  .skillSelected{
+    font-size: 20px;
+  }
+  
+  .skillsLinks{
+    font-size: 20px;
+    text-align: left; 
+    margin-left: 20px;
+  }
+  .title {
+    display:none
+  }
+
+  .link-small-devices{
+    display: block;
+  }
+
+  .spaceDevice {
+    margin: 0px;
+  }
+
+  .project-text {
+    padding-right: 10px;
+  }
+  #image-and-cv {
+    font-size: 15px !important
+  }
+
+  #contact-title{
+    margin-bottom: 0px;
+  }
+  .first-column-project { 
+    margin-top: 25px;
+  }
+
+  .description{
+    max-width: 50%;
+  }
+
+  .profile-pic{
+    max-width: 18%
+  }
+
+
+  }
+
+@media screen and (min-width: 767px) and (max-width: 991px) { 
+
+  .aboutMe{
+    padding: 20px
+  }
+  
+  .title {
+    display:none
+  }
+
+  .link-small-devices{
+    display: block;
+  }
+
+  .spaceDevice {
+    margin: 0px;
+ }
+
+ .description{
+  max-width: 36%;
+}
+
+.profile-pic{
+  max-width: 18%
+}
+}
+
+      
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+  .project-text {
+    display: inline-table;
+  }
+
+  .description{
+    max-width: 22%;
+  }
+
+  .profile-pic{
+    max-width: 18%
+  }
+}
+
+@media screen and (min-width: 1201px) {
+.description{
+  max-width: 17%; 
+}
+
+.profile-pic{
+  max-width: 11%;
+}
+}

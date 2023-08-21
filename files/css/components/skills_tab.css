@@ -1,0 +1,60 @@
+.skills {
+  text-align: initial;
+}
+
+.skillsLinks{
+  font-family: 'Oswald';
+  font-size: 29px;
+  margin-left: 0px;
+  text-align: center; 
+  padding: 0px !important;
+  color: rgba(69, 68, 68, 0.205);
+  cursor: pointer;
+}
+
+
+.skillsLinks a{
+  text-decoration: none;
+  color: rgba(69, 68, 68, 0.205);
+}
+
+
+.skillLinkSelected a {
+  color:black 
+}
+
+
+
+h3{
+  
+
+
+}
+
+#languages{}
+#frameworks{}
+#front{}
+#databases{}
+#knowledges{}
+#OS{}
+#cloud{}
+#version{}
+#tools{}
+#methodologies{}
+
+.selected{
+  font-weight: 700 !important;
+}
+
+.skillSelected{
+  font-family: 'Oswald', sans-serif;
+  font-size: 29px;
+  margin-left: 0px;
+  text-align: initial; 
+  padding: 0px !important;
+  cursor: pointer;
+  font-weight: 400;
+  color: black;
+  margin: 0px;
+}
+

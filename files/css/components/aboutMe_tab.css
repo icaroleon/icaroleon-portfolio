@@ -1,0 +1,75 @@
+#aboutMeContent > .aboutMe {
+  overflow-x: hidden; /*or overflow-x:scroll */
+  overflow-y: hidden;
+  font-size: 16px;
+  
+}
+  
+#aboutMeContent > .aboutMe > article {
+  margin-right: 3%;
+  text-align: justify;
+  
+}
+
+#aboutMeContent > .aboutMeWrapper > .aboutMe > article > h2{
+  animation: fadeEffect 2s; 
+}
+
+#aboutMeContent > .aboutMeWrapper > .aboutMe > article > p{
+  animation: fadeEffect 2s; 
+  padding-right: 5%;
+}
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 44px;
+  margin-bottom: 45px;
+}
+
+.title {
+  font-size: 45px
+}
+
+.aboutMeWrapper{
+  display: flex;
+  align-items: center;
+}
+
+.aboutMe{
+  height: 500px;
+}
+
+.aboutMe > article{
+  height: 500px;
+  padding: 0px;
+  margin: 10px;
+ 
+}
+
+.bodylinks {
+  font-family: 'Oswald';
+  font-size: 30px;
+  margin-left: 0px;
+  text-align: center; 
+  padding: 0px !important;
+  color: rgba(69, 68, 68, 0.205);
+  cursor: pointer;
+}
+
+#sobreMim {
+  padding-right: 30%;
+}
+
+
+.bodylinks:hover {
+  
+  color: rgba(69, 68, 68, 0.5);
+  
+}
+
+.aboutMeWrapper > .row > .active {
+ 
+  color: black;
+  
+}
+

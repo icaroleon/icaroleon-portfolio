@@ -1,0 +1,65 @@
+
+.description{
+  max-width: 15%;
+}
+
+#first-page-title{
+  font-family: 'Six Caps';
+  letter-spacing: 3px;
+  font-size: 55px;
+  text-align: right;
+  margin-bottom: -10px;
+  margin-right: -3px;
+}
+
+ #subtitle{
+  font-family: 'Oswald';
+  text-align: right ;
+  font-size: 13px;
+  margin-bottom: 1rem;
+  
+}
+
+.description-title{
+  margin-bottom: -12px;
+  padding: 0px
+}
+
+.first-page > .description >  .description-skills {
+ margin-top: 28px;
+}
+
+.first-page > .description >  .description-skills > p{
+  font-family: 'Oswald';
+  text-align: right;
+  margin-bottom: 0px;
+  font-size: 13px;
+  font-weight:  lighter;
+}
+
+.profile-pic{
+  align-items: center;
+  max-width: 15%
+}
+
+#profile-pic-description{
+  width: 210px;
+  border-radius: 50%;
+  display: block;
+  box-shadow: 2px 2px 10px black;
+}
+
+.hello {
+    display: inline-block
+}
+
+.show-portfolium{
+
+
+}
+
+#know-more {
+  text-align: center;
+  align-items: start;
+  font-family: 'Oswald';
+}
